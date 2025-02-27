@@ -1,11 +1,12 @@
 import React from 'react'
+import Discount from '../assets/Discount.webp'
 
 function Home() {
   return (
     <div className='bg-green-200 h-lvh'>
     <div className='text-center py-10 flex flex-row'>
       <div>
-        <img className='w-56 h-56' src='../../src/assets/Discount.webp'/>
+        <img className='w-56 h-56' src={Discount}/>
       </div>
       <div>
       <h1 className='text-center py-10 text-4xl font-semibold'>Welcome to shopping</h1>
