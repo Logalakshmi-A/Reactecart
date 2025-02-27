@@ -99,7 +99,7 @@ function Cart() {
               <tbody>
                 <tr>
                   <td>Total Items:</td>
-                  <td className="text-center">{cartItems.length}</td>
+                  <td>{cartItems.length}</td>
                 </tr>              
                 <tr>
                   <td>Total Price:</td>
