@@ -11,7 +11,7 @@ function Cart() {
   )
 
   return (
-    <div className="container mx-auto py-5">
+    <div className="container mx-auto py-5 bg-gradient-to-r from-green-200 to-blue-200 h-lvh">
       <h2 className="text-2xl font-bold mb-4">Shopping Cart</h2>
       {cartItems.length === 0 ? (
         <p className="font-bold">Cart is empty</p>
@@ -98,8 +98,7 @@ function Cart() {
               </thead>
               <tbody>
                 <tr>
-                  <td>Total Items:</td>
-                  <td>{cartItems.length}</td>
+                  <td>Total Items: {cartItems.length}</td>
                 </tr>              
                 <tr>
                   <td>Total Price:</td>

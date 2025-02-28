@@ -2,10 +2,10 @@ import React from 'react'
 
 function Home() {
   return (
-    <div className='bg-green-200 h-lvh'>
+    <div className='bg-gradient-to-r from-green-300 to-blue-300 h-lvh'>
     <div className='text-center py-10 flex flex-row'>
       <div>
-        <img className='w-56 h-56' src='./Discount.webp'/>
+        <img className='w-56 h-56' src='../public/Discount.webp'/>
       </div>
       <div>
       <h1 className='text-center py-10 text-4xl font-semibold'>Welcome to shopping</h1>
