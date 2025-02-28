@@ -16,7 +16,7 @@ function ProductCart({product}) {
     navigate(`/product/${product.id}`);
   };
   return (
-    <div  onClick={handleNavigate} className="shadow-lg rounded-lg p-4 cursor-pointer mt-4">   
+    <div  onClick={handleNavigate} className="shadow-lg rounded-lg p-4 cursor-pointer mt-4 bg-gradient-to-r from-green-200 to-blue-200">   
       <img src={product.image}  className='h-60 object-cover rounded content-center'/>
       <h1 className='mt-2 font-semibold'>Title: {product.title}</h1>
       <h2 className='text-gray-600'>Price: {product.price}</h2>
